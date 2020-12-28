@@ -1,0 +1,3 @@
+ A webhook is a user defined http call back to an external system. Basically a webhook is a way to feed information from your application to an external system based on some event or action. Why is this important for your instance? Well if you are monitoring or discovering a custom application for CI creation or updates, this could be one use for this type of integration.
+
+For this blog we will use github as an example, and simply echo the JSON message from github back to the system log in ServiceNow after a code commit happens.
